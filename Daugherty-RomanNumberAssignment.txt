@@ -1,0 +1,33 @@
+PsuedoCode 
+
+Each roman numeral matches the number in the arrays
+
+The program then asks the user for a number between 1 and 1000:
+
+    If
+        when the number is less than 1 or greater than 1000 then
+        Tell the user the number is invalid
+
+    Else
+        Go through the chart from the largest number to the smallest:
+
+            While
+                the user's number is greater than or equal to
+                the current chart number
+                Display the matching roman numeral
+                Subtract the chart number from the user's number
+
+        Move on to the next chart number until the end of the chart
+
+    Clear out any leftover characters from the input
+
+Ask the user if they want to enter a different number:
+
+    If
+        when the answer is yes then repeat the loop
+
+    Else If
+        when the answer is no then stop looping
+
+When the program exits:
+    Convey that the program has ended.
